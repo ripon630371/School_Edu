@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.top-header{
+	padding: 8px 0px;
+	background: #4285F4;
+}
+.phone-clock{
+	color: #fff;
+}
+.social-link {
+	text-align: right;
+}
+.social-link a {
+	color: #fff;
+	padding: 0px 15px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+}
+.navbar {
+	border-radius: 0px;
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+.navbar-default{
+	background: #fff;
+}
+.navbar-brand {
+	height: 80px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #666;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background: #4285F4;
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus{
+	color:#666;
+} 
+.navbar-nav > li {
+	float: left;
+	margin-top: 10px;
+}
+/*slider-area sction*/
+.slider-bg{
+	height: 500px;
+	background-size: cover !important;
+}
