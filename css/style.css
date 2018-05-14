@@ -2,6 +2,9 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+a:hover{
+	text-decoration: none;
+}
 .top-header{
 	padding: 8px 0px;
 	background: #4285F4;
@@ -50,7 +53,6 @@ body{
 /*slider-area sction*/
 .slider-area {
 	overflow: hidden;
-	padding-bottom: 30px;
 }
 .slider-bg{
 	height: 500px;
@@ -67,10 +69,6 @@ body{
 	border-radius: 0px;
 	background: #4285F4;
 }
-/* .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
-	color: #4285F4;
-} */
-
 .glyphicon-chevron-right, .glyphicon-chevron-left{
 	color:#4285F4;
 }
@@ -115,4 +113,101 @@ body{
 }
 .btn-slide:hover{
 	background: #4285F4;
+}
+/* notice-area section */
+.welcome-area{
+	min-height: 200px;
+	padding: 70px 0px; 
+}
+.content-title h2 {
+	margin: 0px;
+	color: #777;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 40px;
+}
+.content-title h2::before {
+	position: absolute;
+	content: "";
+	background: #4285F4;
+	height: 2px;
+	width: 40px;
+	top: 50px;
+}
+.content-title h2::after {
+	position: absolute;
+	content: "";
+	background: #4285F4;
+	height: 2px;
+	width: 100px;
+	top: 50px;
+	left: 50px;
+}
+.video-content p{
+	margin: 15px 0px;
+	color: #777;
+	line-height: 24px;
+	text-align: justify;
+	font-size: 16px;
+}
+.readmore {
+	display: block;
+	background: #4285F4;
+	padding: 13px 0px;
+	text-align: center;
+	border: 1px solid #000;
+	color: #000;
+	text-transform: uppercase;
+	transition: .5s;
+	width: 100%;
+}
+.wid{
+	width: 150px;
+}
+ .readmore:hover{
+	background: #FFAF65;
+	color: #fff;
+}
+.video-content a{
+	text-decoration: none;
+}
+/* notie-box  */
+.notice-box{
+	min-height: 200px;
+	width: 100%;
+	padding: 15px;
+	border: 2px solid #4285F4;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 45px;
+}
+.notice-box marquee{
+	height: 400px;
+}
+.single-notice{
+	margin-bottom: 30px;
+}
+.single-notice p.date{
+	margin: 0px;
+	color: #4285F4;
+	font-size: 20px;
+
+}
+.single-notice h2{
+	margin: 10px 0px;
+	color: #777;
+	display: block;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.single-notice p{
+	color: #777;
+	display: block;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 20px;
+}
+.single-notice a{
+	text-decoration: none;
 }
