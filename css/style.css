@@ -208,6 +208,103 @@ a:hover{
 	text-align: justify;
 	line-height: 20px;
 }
+.single-notice p:hover{
+	color: #4285F4;
+}
 .single-notice a{
 	text-decoration: none;
+}
+/* future-area section */
+#future-area{
+	min-height: 200px;
+	padding: 70px 0px;
+	background: url(../img/feature-bg.jpg) center center;
+	position: relative;
+	margin-bottom: 20px;
+}
+.myoverlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.7);
+}
+.future-title{
+	color: #fff !important;
+}
+.future-owl{
+	color: #fff;
+}
+.single-future{
+	text-align: center;
+}
+.single-future .future-icon {
+	font-size: 45px;
+	color: #FFAF65;
+	transition: .5s;
+}
+.single-future .future-icon:hover {
+	color: #4285F4;
+}
+.single-future h3 {
+	margin: 0;
+	margin: 18px 0px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	overflow: hidden;
+	display: block;
+	color: #fff;
+}
+.single-future p {
+	font-size: 17px;
+	text-align: justify;
+	overflow: hidden;
+	display: block;
+}
+.owl-theme .owl-nav {
+	margin-top: 10px;
+	position: absolute;
+	background: #4285F4;
+	display: block;
+	overflow: hidden;
+	top: -84px;
+	right: 10px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+	color: #FFF;
+	font-size: 14px;
+	margin: 5px;
+	padding: 4px 7px;
+	background: transparent;
+	display: inline-block;
+	cursor: pointer;
+}
+.owl-next i {
+	font-size: 20px;
+	padding: 0px 7px;
+}
+.owl-prev i {
+	font-size: 20px;
+	padding: 0px 7px;
+}
+/* .angel::before {
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid #4285F4;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	position: absolute;
+	content: "";
+	top: -102px;
+	right: 81px;
+} */
+
+/* course-area section */
+#course-area{
+	min-height: 400px;
+	padding: 70px 0px;
+}
+.single-course {
+	text-align: center;
 }
