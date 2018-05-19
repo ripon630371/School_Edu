@@ -16,8 +16,8 @@ $('.future-owl').owlCarousel({
 	            items:4
 	        }
 	    }
-})
-//future section area owlcarousel .....................
+});
+// course-owl section area owlcarousel .....................
 $('.course-owl').owlCarousel({
 	    loop:true,
 	    margin:30,

@@ -305,6 +305,40 @@ a:hover{
 	min-height: 400px;
 	padding: 70px 0px;
 }
-.single-course {
+.single-course{
+	position: relative;
 	text-align: center;
+	overflow: hidden;
 }
+.single-course figure:before{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background:rgba(0,0,0,0.4);
+	content: ""; 
+}
+.single-course figure figcaption{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+}
+.clr{
+	clear: both;
+}
+.course-content{
+	position: absolute;
+	bottom: 100px;
+	left: 0px;
+}
+.fig-title {
+	font-weight: 700;
+	font-size: 20px;
+}
+.fig-icon-title {
+	font-size: 18px;
+	text-transform: capitalize;
+}
+ 
