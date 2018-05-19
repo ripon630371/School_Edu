@@ -1,0 +1,50 @@
+/* counter box responsive start*/
+@media (max-width: 768px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 800px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 827px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 887px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 862px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 649px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 960px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+@media (max-width: 990px) {
+    .counter-single{
+    	margin: 0px auto 50px;
+    	background-color: lightblue;
+    }
+}
+/* counter box responsive start*/

@@ -228,7 +228,7 @@ a:hover{
 	left: 0px;
 	height: 100%;
 	width: 100%;
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,.6);
 }
 .future-title{
 	color: #fff !important;
@@ -301,9 +301,9 @@ a:hover{
 } */
 
 /* course-area section */
-#course-area{
+#course-area {
 	min-height: 400px;
-	padding: 70px 0px;
+	padding: 70px 0px 0px;
 }
 .single-course{
 	position: relative;
@@ -341,4 +341,34 @@ a:hover{
 	font-size: 18px;
 	text-transform: capitalize;
 }
- 
+/*  counter-area section */
+.counter-area{
+	min-height: 300px;
+	background: url(../img/counter-bg.jpg) fixed;
+	background-size: cover;
+	margin-bottom: 20px;
+	position: relative;
+	padding: 70px 0px;
+}
+.counter-single {
+	height: 200px;
+	width: 200px;
+	background: rgba(225,225,225,0.4);
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	margin: 0px auto 0px;
+}
+.counter-icon {
+	font-size: 45px;
+	padding-top: 30px;
+	color: #0074E8;
+}
+.counter-single h2 {
+	margin: 6px 0px 6px;
+}
+.counter-single p {
+	font-weight: 700;
+	font-size: 17px;
+	text-transform: capitalize;
+}
