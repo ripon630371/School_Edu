@@ -343,7 +343,7 @@ a:hover{
 }
 /*  counter-area section */
 .counter-area{
-	min-height: 300px;
+	min-height: 400px;
 	background: url(../img/counter-bg.jpg) fixed;
 	background-size: cover;
 	margin-bottom: 20px;
@@ -372,3 +372,44 @@ a:hover{
 	font-size: 17px;
 	text-transform: capitalize;
 }
+/* gallery-area section */
+#gallery-area{
+	min-height: 400px;
+	padding: 70px 0px;
+}
+.gallery-box figure{
+	position: relative;
+}
+.gallery-box figure img{
+	width: 100%;
+}
+.gallery-box figure figcaption {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0,.5);
+	transform: scale(0);
+	transition: .5s;
+}
+.gallery-box figure figcaption a {
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	top: 50%;
+	left: -100%;
+	transform: translate(-50%,-50%);
+	transition: .5s;
+	opacity: 0;
+}
+.gallery-box:hover figcaption a{
+	left: 50%;
+	opacity: 1;
+} 
+.gallery-box figure:hover figcaption{
+	transform: scale(1);
+}
+.mypadding{
+	padding: 0px;
+} 
