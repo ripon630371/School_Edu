@@ -413,3 +413,97 @@ a:hover{
 .mypadding{
 	padding: 0px;
 } 
+/* teacher-area section */
+#teacher-area{
+	min-height: 500px;
+	padding: 70px 0px;
+	background: url(../img/lecturer-img-bg.jpg) center;
+	margin: 30px 0px;
+	background-size: cover;
+	position: relative;
+}
+#teacher-area:before{
+	position: absolute;
+	content: "";
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #000;
+	opacity: .5;
+}
+.teacher-box{
+
+}
+.teacher-box figure img{
+	width: 100%;
+}
+.teacher-box figure{
+	position: relative;
+	overflow: hidden;
+}
+.teacher-box figure figcaption{
+	position: absolute;
+	bottom: 50px;
+	background: #4285F4;
+	width: 100%;
+	padding: 15px;
+	bottom: 350px;
+	transition: 1s;
+	opacity: 0;
+}
+.teacher-box ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.teacher-box ul li{
+	display: inline-block;
+	margin-right: 7px;
+} 
+.teacher-box ul li a {
+	background: #fff;
+	color: #000;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	display: inline-block;
+	transition: .5s;
+	font-size: 16px;
+}
+.teacher-box ul li a:hover{
+	background: #000;
+	color: #fff;
+}
+.teacher-box figcaption p {
+	color: #ddd;
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+}
+.teacher-box figure:hover figcaption{
+	bottom: 0px;
+	opacity: 1;
+}
+.teacher-content{
+	background: #4285F4;
+	padding: 10px;
+}
+.teacher-content h2 {
+	color: #fff;
+	text-align: center;
+	margin: 0px 0px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 8px 0px;
+}
+.teacher-content p {
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	text-transform: capitalize;
+}
