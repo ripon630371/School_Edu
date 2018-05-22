@@ -414,13 +414,14 @@ a:hover{
 	padding: 0px;
 } 
 /* teacher-area section */
-#teacher-area{
+#teacher-area {
 	min-height: 500px;
 	padding: 70px 0px;
 	background: url(../img/lecturer-img-bg.jpg) center;
 	margin: 30px 0px;
 	background-size: cover;
 	position: relative;
+	margin-bottom: 0px;
 }
 #teacher-area:before{
 	position: absolute;
@@ -506,4 +507,80 @@ a:hover{
 	text-align: center;
 	font-size: 16px;
 	text-transform: capitalize;
+}
+/* why choose section area */
+#why{
+	background: #dddd;
+	padding:70px 0px;
+	min-height: 200px;
+}
+.why-content {
+	background: #fff;
+	padding: 20px 35px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.why-content p{
+	color: #666;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.why-icon {
+	position: absolute;
+	color: #0074E8;
+	top: 15px;
+	left: 10px;
+	font-size: 20px;
+}
+.why-img {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	left: 50px;
+}
+.why-img::before {
+	position: absolute;
+	border-top: 30px solid #fff;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	bottom: 26px;
+	content: "";
+}
+.why-img img {
+	border-radius: 50%;
+}
+.teacher-info {
+	position: absolute;
+	content: "";
+	top: 164px;
+	left: 123px;
+}
+.teacher-info h2 {
+	color: #666;
+	font-size: 18px;
+	text-transform: capitalize;
+	margin: 0px;
+}
+.teacher-info p {
+	color: #666;
+	font-size: 14px;
+	margin-top: 8px;
+}
+/* why chosse section left */
+.panel-active{
+	background: #4285F4 !important;
+	color: #fff !important;
+}
+.panel-title > a {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+/* footer section  */
+footer{
+	min-height: 200px;
+	padding: 70px 0px;
 }
