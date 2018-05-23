@@ -17,6 +17,7 @@ $('.future-owl').owlCarousel({
 	        }
 	    }
 });
+
 // course-owl section area owlcarousel .....................
 $('.course-owl').owlCarousel({
 	    loop:true,
@@ -36,6 +37,7 @@ $('.course-owl').owlCarousel({
 	        }
 	    }
 });
+
 // why-carousel section area owlcarousel .....................
 $('.why-carousel').owlCarousel({
 	    loop:true,
@@ -55,4 +57,40 @@ $('.why-carousel').owlCarousel({
 	        }
 	    }
 });
+
+//counter active plagin ..................................
+	$('.counter').counterUp({
+	    delay: 10,
+	    time: 1000
+	});
+
+// aos.js active............................................
+	  AOS.init({
+	      offset: 200,
+	      duration: 600,
+	      easing: 'ease-in-sine',
+	      delay: 100,
+    });
+// magnific popup lightbox active...........................
+	$(document).ready(function() {
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			}
+		});
+	});
+
 //why chosse section......................................
+	$('.panel-heading').click(function(){
+		$('.panel-heading').removeClass('.panel-active');
+		$(this).addClass('.panel_active');
+	});

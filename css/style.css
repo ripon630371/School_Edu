@@ -241,7 +241,7 @@ a:hover{
 }
 .single-future .future-icon {
 	font-size: 45px;
-	color: #FFAF65;
+	color: #4285F4;
 	transition: .5s;
 }
 .single-future .future-icon:hover {
@@ -581,6 +581,50 @@ a:hover{
 }
 /* footer section  */
 footer{
-	min-height: 200px;
+	min-height: 400px;
 	padding: 70px 0px;
+	background: url(../img/footer-bg.jpg) top left;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+footer:before{
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,0.8);
+} 
+.why-left-content p {
+	color: #fff;
+	font-size: 15px;
+	text-align: justify;
+	text-transform: capitalize;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+.why-left-content input {
+	border: none;
+	height: 31px;
+	border-radius: 3px;
+	padding: 7px 13px;
+	margin: 0px auto;
+}
+.why-left-content button {
+	border: none;
+	height: 32px;
+	padding: 0px 13px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	background: #0074E8;
+	color: #fff;
+	border-radius: 3px;
+	transition: .5s;
+}
+.why-left-content button:hover{
+	background: transparent;
+	color: #0074E8;
 }
