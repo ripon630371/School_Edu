@@ -39,6 +39,33 @@ a:hover{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+/* dropdown-menu section */
+.navbar-nav > li > .dropdown-menu {
+	margin-top: 19px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.dropdown-menu > li > a {
+	color: #666;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition: .5s;
+}
+.dropdown-menu{
+	display: block;
+	transform: scale(0);
+	transition: 1s;
+}
+.dropdown:hover .dropdown-menu{
+	transform: scale(1);
+}
+.dropdown-menu > li > a:hover {
+	color: #fff;
+	background: #0074E8;
+	margin-top: 0px;
+}
 .navbar-default .navbar-nav > li > a:hover{
 	background: #4285F4;
 	color: #fff;
